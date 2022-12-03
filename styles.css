@@ -2,4 +2,24 @@ body {
   display: grid;
   background-color: #111;
   color: #ccc;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+#chatWindow {
+  background-color: #4caf50;
+  padding: 2rem;
+  border: 1px transparent;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+#chatInput {
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
